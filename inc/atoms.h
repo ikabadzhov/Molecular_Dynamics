@@ -3,8 +3,7 @@
 
 #include "types.h"
 
-class Atoms {
-public:
+struct Atoms {
   Positions_t positions;
   Velocities_t velocities;
   Forces_t forces;

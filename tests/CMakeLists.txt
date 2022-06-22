@@ -7,6 +7,7 @@ FetchContent_MakeAvailable(googletest)
 
 set(_TST
         ${CMAKE_CURRENT_SOURCE_DIR}/test_verlet.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/test_atoms.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/test_lj_direct_summation.cpp
         )
 
