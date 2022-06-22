@@ -4,7 +4,6 @@
 #include <vector>
 
 TEST(NaiveVerlet, AllZeros) {
-  std::cout << "hi\n";
   double x{0.}, y{0.}, z{0.};
   double vx{0.}, vy{0.}, vz{0.};
   double fx{0.}, fy{0.}, fz{0.};
