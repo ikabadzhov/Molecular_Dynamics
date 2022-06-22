@@ -1,0 +1,16 @@
+name: format
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: clang-format (C++) check
+      uses: jidicula/clang-format-action@v4.6.2
